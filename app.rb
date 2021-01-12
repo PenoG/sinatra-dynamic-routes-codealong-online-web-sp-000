@@ -14,7 +14,7 @@ class App < Sinatra::Base
   end
   
   get "/goodbye/:name" do
-    "Goodbye, (person's name)."
+    "Goodbye, #{@user."
   end
 
 end
